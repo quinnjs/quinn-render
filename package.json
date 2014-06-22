@@ -1,0 +1,34 @@
+{
+  "name": "quinn-render",
+  "version": "0.0.0",
+  "description": "Rendering html for quinn apps",
+  "main": "dist/quinn-render.js",
+  "scripts": {
+    "test": "make clean lint test check-checkout-clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jkrems/quinn-render.git"
+  },
+  "author": "Jan Krems <jan.krems@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jkrems/quinn-render/issues"
+  },
+  "homepage": "https://github.com/jkrems/quinn-render",
+  "devDependencies": {
+    "bluebird": "^2.1.3",
+    "pinky-test": "^1.0.2",
+    "quinnc": "^1.0.0",
+    "reakt": "0.0.5"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "bluebird": "^2.1.3",
+    "pinky-test": "^1.0.2",
+    "quinnc": "^1.0.0",
+    "reakt": "^0.0.5"
+  }
+}
