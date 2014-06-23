@@ -15,7 +15,6 @@ function renderStyles(styles) {
 
 /* No, I'm not serious. */
 function renderHeader(options) {
-  console.log('rendering header', options);
   var lang = options.lang || lang;
   var locale = options.locale || locale;
   var dir = options.rtl ? 'rtl' : 'ltr';
@@ -43,8 +42,7 @@ function HTML5Header(options) {
   return new PromisedStream(partial(renderHeader, options));
 }
 
-function renderFooter(options) {
-  console.log('rendering footer', options);
+function renderFooter() {
   return '</body></html>';
 }
 

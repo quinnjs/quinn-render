@@ -83,12 +83,13 @@ pinky('quinn integration', [
     return quickRequest(handler)
       .then(_.property('body'))
       .then(function(body) {
-        console.log(body);
         return swear([
-          swear.equal(1,1)
-          // swear.include('<div class="num10"></div>', body),
-          // swear.include('<body>', body)
-        ]);
+          '<div class="num10"></div>',
+          '<!doctype html>',
+          '<meta charset="utf-8">'
+        ].map(function(needle) {
+          return swear.include(needle, body);
+        }));
       });
   })
 ]);

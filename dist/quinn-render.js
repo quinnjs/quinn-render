@@ -1,5 +1,6 @@
 'use strict';
 
+var React = require('react');
 var resolveDeep = require('resolve-deep');
 
 var respond = require('quinn-respond');
@@ -46,7 +47,6 @@ function templateStreamFromFunction(fn, context, options) {
   return new BufferBody(new Buffer(rendered, 'utf8'));
 }
 
-var React = require('react');
 function templateStreamFromReact(component, context, options) {
   var rendered =
     !!options.reactMarkup ?
