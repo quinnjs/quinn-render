@@ -17,8 +17,11 @@
   },
   "homepage": "https://github.com/jkrems/quinn-render",
   "devDependencies": {
+    "assertive": "^1.4.0",
     "bluebird": "^2.1.3",
-    "pinky-test": "^1.0.2",
+    "jshint": "^2.5.1",
+    "pinky-test": "^1.1.0",
+    "quinn": "^2.0.0-pre6",
     "quinnc": "^1.0.0",
     "reakt": "0.0.5"
   },
@@ -27,8 +30,14 @@
   },
   "dependencies": {
     "bluebird": "^2.1.3",
+    "envify": "^1.2.1",
+    "lodash": "^2.4.1",
     "pinky-test": "^1.0.2",
+    "quinn-respond": "^1.0.1",
     "quinnc": "^1.0.0",
-    "reakt": "^0.0.5"
+    "react": "^0.10.0",
+    "readable-stream": "~1.0.27-1",
+    "reakt": "^0.0.5",
+    "resolve-deep": "^1.0.1"
   }
 }
