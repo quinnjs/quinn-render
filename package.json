@@ -1,6 +1,6 @@
 {
   "name": "quinn-render",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Rendering html for quinn apps",
   "main": "dist/quinn-render.js",
   "scripts": {
